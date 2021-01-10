@@ -80,8 +80,8 @@
 
     <div class="booking">
       <p class="booking__slogan">Забронируйте поездку прямо сейчас</p>
-      <p class="booking__call">Позпоните нам <?php include 'includes/phones.php'?></p>
-      <p class="booking__online">или забронируйте <a href="#">онлайн</a> на сайте</p>
+      <p class="booking__call">Позвоните нам <?php include 'includes/phones.php'?></p>
+      <p class="booking__online">или забронируйте <a href="page-booking.php">онлайн</a> на сайте</p>
       <button class="order-btn" type="button">Забронировать</button>
     </div><!-- booking -->
 
@@ -221,7 +221,7 @@
         <li><a href="#">Направления</a></li>
         <li><a href="#">Бронирование</a></li>
         <li><a href="#">О нас</a></li>
-        <li><a href="#">Контаакты</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
       <div class="copyright">
         <div>

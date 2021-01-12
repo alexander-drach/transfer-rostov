@@ -4,15 +4,15 @@
 
     <div class="field">
       <label class="label" for="name">
-        <span>Ваше имя</span>
-        <input class="input" id="name" type="text" name="name" placeholder="Ваше имя*" required="">
+        <span>Ваше имя*</span>
+        <input class="input" id="name" type="text" name="name" placeholder="Ваше имя*" required>
       </label>
     </div>
 
     <div class="field">
       <label class="label" for="phone">
         <span>Телефон*</span>
-        <input class="input" id="tel" type="tel" name="phone" placeholder="Телефон*" required="">
+        <input class="input" id="phone" type="tel" name="phone" placeholder="Телефон*" required>
       </label>
     </div>
 
@@ -25,32 +25,32 @@
 
     <div class="field">
       <label class="label" for="info">
-        <span>Дополнительная информация*</span>
-        <textarea id="info" name="info">Дополнительная информация*</textarea>
+        <span>Дополнительная информация</span>
+        <textarea id="info" name="info">Дополнительная информация</textarea>
       </label>
     </div>
 
     <div class="field field-group">
       <label class="label" for="where">
         <span>Откуда*</span>
-        <input class="input" id="where" type="text" name="where" placeholder="Откуда*" required="">
+        <input class="input" id="where" type="text" name="where" placeholder="Откуда*" required>
       </label>
 
       <label class="label" for="somewhere">
         <span>Куда*</span>
-        <input class="input" id="somewhere" type="text" name="somewhere" placeholder="Куда*" required="">
+        <input class="input" id="somewhere" type="text" name="somewhere" placeholder="Куда*" required>
       </label>
     </div>
 
     <div class="field field-group">
       <label class="label" for="date">
         <span>Дата*</span>
-        <input class="input" id="date" type="date" name="date" placeholder="Дата*" required="">
+        <input class="input" id="date" type="date" name="date" placeholder="Дата*" required>
       </label>
 
       <label class="label" for="time">
         <span>Время*</span>
-        <input class="input" id="time" type="time" name="time" placeholder="Время*" required="">
+        <input class="input" id="time" type="time" name="time" placeholder="Время*" required>
       </label>
     </div>
 
@@ -58,12 +58,12 @@
       <label class="label" for="passengers">
         <span>Количество пассажиров*</span>
         <input class="input" id="passengers" type="number" name="passengers" placeholder="Количество пассажиров*"
-          required="">
+          required>
       </label>
 
       <label class="label" for="children">
         <span>Количество детей*</span>
-        <input class="input" id="children" type="number" name="children" placeholder="Количество детей*" required="">
+        <input class="input" id="children" type="number" name="children" placeholder="Количество детей*" required>
       </label>
     </div>
 
@@ -101,10 +101,9 @@
         <span>Категория транспорта*</span>
         <select name="rate" id="rate">
           <option value="Стандарт">Стандарт</option>
-          <option value="Стандарт">Комфорт</option>
-          <option value="Стандарт">Бизнес</option>
+          <option value="Комфорт">Комфорт</option>
+          <option value="Бизнес">Бизнес</option>
         </select>
-        <!-- <input class="input" id="rate" type="text" name="rate" placeholder="Выберите тариф*" required=""> -->
       </label>
     </div>
 

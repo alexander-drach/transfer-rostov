@@ -2,7 +2,7 @@
   <section class="about">
     <h2 class="title-section">О нас</h2>
     <div class="container container_about">
-      <div class="about-item services">
+      <div class="about-item about-item_services">
         <p class="item-title">Услуги междугороднего такси и трансфера</p>
         <p class="about-text">
           Наша команда профессионалов начала свою работу
@@ -18,7 +18,7 @@
           поездки на границу с Украиной (таможня), по РФ.</p>
       </div><!-- services -->
 
-      <div class="about-item methods">
+      <div class="about-item about-item_methods">
         <p class="item-title">Забронировать автомобиль можете любым удобным для Вас способом:</p>
         <p class="about-text">Позвонить по телефонам:</p>
         <?php include 'includes/block-phones.php'?>

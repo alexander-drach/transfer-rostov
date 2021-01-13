@@ -16,7 +16,7 @@
 
 <body>
   <header class="header-page">
-    <div class="container">
+    <div class="container container_header">
       <a class="logo">
         <picture>
           <source srcset="img/logo-mobile.svg" media="(max-width: 480px)">
@@ -31,13 +31,6 @@
         <div class="phones phones_header">
           <?php include 'includes/phones.php'?>
         </div>
-        <button class="hamb" type="button">
-          <span class="visually-hidden">открыть меню</span>
-          <span class="hamb__line"></span>
-        </button>
-        <button class="close-menu" type="button">
-          <span class="visually-hidden">закрыть меню</span>
-        </button>
         <nav class="nav">
           <ul class="main-menu">
             <li><a href="#">Главная</a></li>
@@ -47,6 +40,13 @@
             <li><a href="#">О нас</a></li>
             <li><a href="#">Контаакты</a></li>
           </ul>
+          <button class="hamb" type="button">
+            <span class="visually-hidden">открыть меню</span>
+            <span class="hamb__line"></span>
+          </button>
+          <button class="close-menu" type="button">
+            <span class="visually-hidden">закрыть меню</span>
+          </button>
         </nav>
       </div><!-- header-contact-menu -->
     </div><!-- container -->
@@ -64,15 +64,15 @@
 
           <header class="tab-menu">
             <ul>
-              <li><a href="#">Стандарт</a></li>
-              <li><a href="#">Комфорт</a></li>
-              <li><a href="#">Бизнес</a></li>
+              <li>Стандарт</li>
+              <li>Комфорт</li>
+              <li>Бизнес</li>
             </ul>
             <button class="order-btn" type="button">Заказать</button>
           </header>
-          <main class="tab-content">
+          <div class="tab-content">
 
-          </main>
+          </div>
         </div><!-- tabs -->
       </div>
     </section><!-- rates -->
@@ -107,7 +107,7 @@
 
     <section class="features">
       <h2 class="title-section">Наши дополнительные преимущества</h2>
-      <ul class="list list_features">
+      <ul class="list list_features container">
 
         <li class="list__item">
           <div class="features__icon">
@@ -154,54 +154,51 @@
 
     <section class="routs">
       <h2 class="title-section">Популярные направления</h2>
-<div class="container">
-<ul class="list list_routs">
+      <div class="container">
+        <ul class="list list_routs">
+          <li class="list__item">
+            <img class="routs__img" src="img/platov.jpg" alt="">
+            <h3 class="routs__title">Аэропорт Платов</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
 
-        <li class="list__item">
-          <img class="routs__img" src="img/platov.jpg" alt="">
-          <h3 class="routs__title">Аэропорт Платов</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
+          <li class="list__item">
+            <img class="routs__img" src="img/taganrog.jpg" alt="">
+            <h3 class="routs__title">Таганрог</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
 
-        <li class="list__item">
-          <img class="routs__img" src="img/taganrog.jpg" alt="">
-          <h3 class="routs__title">Таганрог</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
+          <li class="list__item">
+            <img class="routs__img" src="img/eysk.jpg" alt="">
+            <h3 class="routs__title">Ейск</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
 
-        <li class="list__item">
-          <img class="routs__img" src="img/eysk.jpg" alt="">
-          <h3 class="routs__title">Ейск</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
+          <li class="list__item">
+            <img class="routs__img" src="img/gelendgik.jpg" alt="">
+            <h3 class="routs__title">Геленджик</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
 
-        <li class="list__item">
-          <img class="routs__img" src="img/gelendgik.jpg" alt="">
-          <h3 class="routs__title">Геленджик</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
+          <li class="list__item">
+            <img class="routs__img" src="img/krum.jpg" alt="">
+            <h3 class="routs__title">Крым</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
 
-        <li class="list__item">
-          <img class="routs__img" src="img/krum.jpg" alt="">
-          <h3 class="routs__title">Крым</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
-
-        <li class="list__item">
-          <img class="routs__img" src="img/volgodonsk.jpg" alt="">
-          <h3 class="routs__title">Волгодонск</h3>
-          <a class="routs__link" href="#">Заказать</a>
-          <div class="routs__overlay"></div>
-        </li><!-- list__item -->
-      </ul>
-
-</div>
-      
+          <li class="list__item">
+            <img class="routs__img" src="img/volgodonsk.jpg" alt="">
+            <h3 class="routs__title">Волгодонск</h3>
+            <a class="routs__link" href="#">Заказать</a>
+            <div class="routs__overlay"></div>
+          </li><!-- list__item -->
+        </ul>
+      </div>
     </section>
 
   </main>

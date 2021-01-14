@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1280px;
-  padding: 0 15px;
-  margin: 0 auto;
-  outline: 1px solid green;
-}
-
 html {
   height: 100%;
 }
@@ -41,9 +34,17 @@ button:hover {
   opacity: 0.8;
 }
 
-ul {
+.list {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid green;
 }
 
 h1,
@@ -159,7 +160,6 @@ textarea {
   width: 40px;
   height: 27px;
   padding: 0;
-
 }
 
 .hamb__line {
@@ -199,8 +199,27 @@ textarea {
 }
 /* HEADER END */
 
-
 /* BODY */
+
+.phones-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;  
+  color: #19017A;
+  font-weight: bold;
+  margin-bottom: 90px;
+}
+
+.phones-block .phones__icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/icons/contacts/icon-phone.svg);
+  margin: 0 10px;
+}
 
 .booking {
   display: flex;
@@ -224,6 +243,21 @@ textarea {
   width: calc(100% / 4 - 20px);
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.features__icon {
+  margin-bottom: 30px;
+}
+
+.features__title {
+  margin-bottom: 30px;
+}
+
+.list__desc {
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 .list_routs {
@@ -232,10 +266,56 @@ textarea {
 }
 
 .list_routs .list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
   width: calc(100% / 3 - 30px);
+  min-height: 300px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.routs__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+}
+
+.routs__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(70, 70, 70, 0.5), rgba(70, 70, 70, 0.5));
+}
+
+.routs__title {
+  position: relative;
+  font-size: 28px;
+  color:#FFB015;
+  z-index: 1;
+}
+
+.routs__link {
+  position: relative;
+  min-width: 200px;
+  padding: 15px 50px;
+  background-color: #ffffff;
+  color: #016F19;
+  border: 2px solid #016F19;
+  border-radius: 20px;
+  z-index: 1;
 }
 
 

@@ -21,7 +21,9 @@
       <div class="about-item about-item_methods">
         <p class="item-title">Забронировать автомобиль можете любым удобным для Вас способом:</p>
         <p class="about-text">Позвонить по телефонам:</p>
-        <?php include 'includes/block-phones.php'?>
+        <div class="about-phones">
+          <?php include 'includes/block-phones.php'?>
+        </div>        
 
         <p class="about-text">Связаться через мессенджеры:</p>
         <?php include 'includes/messengers.php'?>

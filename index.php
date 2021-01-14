@@ -25,7 +25,7 @@
         </picture>
       </a>
       <div class="header-contact-menu">
-        <div class="messangers messangers_header">
+        <div class="messengers messengers_header">
           <?php include 'includes/messengers.php'?>
         </div>
         <div class="phones phones_header">

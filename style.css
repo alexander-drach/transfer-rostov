@@ -117,11 +117,11 @@ textarea {
   align-items: center;
 }
 
-.messangers_header {
+.messengers_header {
   display: flex;
 }
 
-.messangers_header .messengers__item {
+.messengers_header .messengers__item {
   width: 30px;
   height: 30px;
   margin-right: 27px;
@@ -237,6 +237,7 @@ textarea {
   margin-right: 15px;
   margin-bottom: 40px;
 }
+
 
 /* BODY END */
 

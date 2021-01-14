@@ -105,48 +105,6 @@ textarea {
   overflow: hidden;
 } 
 
-/* BODY */
-
-.booking {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.wrapper-list {
-  display: flex;
-}
-
-.list_features {
-  display: flex;
-}
-
-.features .list__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: calc(100% / 4 - 20px);
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.list_routs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.list_routs .list__item {
-  width: calc(100% / 3 - 30px);
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 40px;
-}
-
-.routs__img:nth-child(3n+1) {
-  margin-right: 0;
-}
-
 /* HEADER */
 .container_header {
   display: flex;
@@ -240,6 +198,47 @@ textarea {
   display: none;
 }
 /* HEADER END */
+
+
+/* BODY */
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-list {
+  display: flex;
+}
+
+.list_features {
+  display: flex;
+}
+
+.features .list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 4 - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.list_routs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_routs .list__item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+/* BODY END */
 
 /* FOOTER */
 .footer-page {

@@ -1,56 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700;800&family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap"
-    rel="stylesheet">
-  <title>РостовЮгТрансфер</title>
-</head>
-
-<body>
-  <header class="header-page">
-    <div class="container container_header">
-      <a class="logo">
-        <picture>
-          <source srcset="img/logo-mobile.svg" media="(max-width: 480px)">
-          <source srcset="img/logo-tablet.svg" media="(max-width: 1024px)">
-          <img class="logo__img" src="img/logo.svg" alt="Логотип РостовЮг Трансфер">
-        </picture>
-      </a>
-      <div class="header-contact-menu">
-        <div class="messangers messangers_header">
-          <?php include 'includes/messengers.php'?>
-        </div>
-        <div class="phones phones_header">
-          <?php include 'includes/phones.php'?>
-        </div>
-        <nav class="nav">
-          <ul class="main-menu">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Направления</a></li>
-            <li><a href="#">Бронирование</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контаакты</a></li>
-          </ul>
-          <button class="hamb" type="button">
-            <span class="visually-hidden">открыть меню</span>
-            <span class="hamb__line"></span>
-          </button>
-          <button class="close-menu" type="button">
-            <span class="visually-hidden">закрыть меню</span>
-          </button>
-        </nav>
-      </div><!-- header-contact-menu -->
-    </div><!-- container -->
-  </header>
   <main>
 
     <?php include 'includes/hero.php'?>
@@ -114,9 +62,9 @@
             <img src="img/icons/features/icon-comfort.svg" alt="">
           </div>
           <h3 class="features__title">Комфорт</h3>
-          <p>
+          <div class="list__desc">
             Поездка должна быть комфортной. Это обеспечивают наши автомобили известных брендов
-          </p>
+          </div>
         </li><!-- list__item -->
 
         <li class="list__item">
@@ -124,9 +72,9 @@
             <img src="img/icons/features/icon-time.svg" alt="">
           </div>
           <h3 class="features__title">Точность</h3>
-          <p>
+          <div class="list__desc">
             Мы ценим Ваше время. Наши пунктуальные водители никогда не опаздывают на заказ
-          </p>
+          </div>
         </li><!-- list__item -->
 
         <li class="list__item">
@@ -134,9 +82,9 @@
             <img src="img/icons/features/icon-price.svg" alt="">
           </div>
           <h3 class="features__title">Цена</h3>
-          <p>
+          <div class="list__desc">
             Фиксированная цена поездки вне зависимости от времени в пути и пробок
-          </p>
+          </div>
         </li><!-- list__item -->
 
         <li class="list__item">
@@ -144,9 +92,9 @@
             <img src="img/icons/features/icon-doc.svg" alt="">
           </div>
           <h3 class="features__title">Квитанция</h3>
-          <p>
+          <div class="list__desc">
             Предоставляем документы о поездке, Бланки Строгой Отчетности
-          </p>
+          </div>
         </li><!-- list__item -->
 
       </ul>
@@ -202,63 +150,5 @@
     </section>
 
   </main>
-  <footer class="footer-page">
-    <div class="container">
-      <h2 class="title-section">Контакты</h2>
-      <h3>Наши телефоны</h3>
-      <div class="phones phohes_footer">
-        <?php include 'includes/phones.php'?>
-      </div>
-      <p class="email-footer">
-        Эл. почта: <a href="mailto:taxiizrostova@gmail.com">taxiizrostova@gmail.com</a>
-      </p>
-      <h3>Мы в соц. сетях</h3>
-      <ul class="list list_social">
-
-        <li class="list__item">
-          <a class="social__link social__link_vk" href="#"><span class="visually-hidden">РостовЮгТрансфер в
-              вконтакте</span></a>
-        </li><!-- list__item -->
-
-        <li class="list__item">
-          <a class="social__link social__link_facebook" href="#"><span class="visually-hidden">РостовЮгТрансфер в
-              facebook</span></a>
-        </li><!-- list__item -->
-
-        <li class="list__item">
-          <a class="social__link social__link_instagram" href="#"><span class="visually-hidden">РостовЮгТрансфер в
-              instagram</span></a>
-        </li><!-- list__item -->
-
-        <li class="list__item">
-          <a class="social__link social__link_twitter" href="#"><span class="visually-hidden">РостовЮгТрансфер в
-              twitter</span></a>
-        </li><!-- list__item -->
-
-        <li class="list__item">
-          <a class="social__link social__link_youtube" href="#"><span class="visually-hidden">РостовЮгТрансфер на
-              youtube</span></a>
-        </li><!-- list__item -->
-      </ul>
-      <ul class="footer-menu">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Направления</a></li>
-        <li><a href="#">Бронирование</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <div class="copyright">
-        <div class="law">
-          <a href="#">Пользовательское соглашение</a>
-          <a href="#">Оферта</a>
-        </div>
-        <span>&copy; <?php echo date('Y') ?> РостовЮгТрансфер</span>
-        <a href="#">Design by S. Polyanskay@</a>
-      </div><!-- copyright -->
-    </div><!-- container -->
-  </footer>
-  <button class="btn-up visually-hidden" type="button"><span class="visually-hidden">Наверх</span></button>
-</body>
 
 </html>

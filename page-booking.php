@@ -1,4 +1,4 @@
-<?php include 'header.php'?>
+<?php include 'header.php'; var_dump($_GET)?>
 
 <?php include 'includes/block-phones.php'?>
 
@@ -44,7 +44,7 @@
 
         <label class="label" for="somewhere">
           <span>Куда*</span>
-          <input class="input" id="somewhere" type="text" name="somewhere" placeholder="Куда*" required>
+          <input class="input" id="somewhere" type="text" name="somewhere" placeholder="Куда*" value="<?php echo $_GET['title']; ?>" required>
         </label>
       </div>
 

@@ -1,4 +1,6 @@
-<!doctype html>
+<?php
+  include 'db.php';
+?><!doctype html>
 <html lang="en">
 
 <head>
@@ -17,7 +19,7 @@
 <body>
   <header class="header-page">
     <div class="container container_header">
-      <a class="logo">
+      <a class="logo" href="/">
         <picture>
           <source srcset="img/logo-mobile.svg" media="(max-width: 480px)">
           <source srcset="img/logo-tablet.svg" media="(max-width: 1024px)">

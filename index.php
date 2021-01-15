@@ -106,47 +106,14 @@
       <h2 class="title-section">Популярные направления</h2>
       <div class="container">
         <ul class="list list_routs">
+          <?php foreach ($routs as $item) : ?>
           <li class="list__item">
-            <img class="routs__img" src="img/platov.jpg" alt="">
-            <h3 class="routs__title">Аэропорт Платов</h3>
-            <a class="routs__link" href="#">Заказать</a>
+            <img class="routs__img" src="<?php echo $item['img']; ?>" alt="">
+            <h3 class="routs__title"><?php echo $item['title']; ?></h3>
+            <a class="routs__link" href="./page-booking.php?title=<?php echo $item['title']; ?>">Заказать</a>
             <div class="routs__overlay"></div>
           </li><!-- list__item -->
-
-          <li class="list__item">
-            <img class="routs__img" src="img/taganrog.jpg" alt="">
-            <h3 class="routs__title">Таганрог</h3>
-            <a class="routs__link" href="#">Заказать</a>
-            <div class="routs__overlay"></div>
-          </li><!-- list__item -->
-
-          <li class="list__item">
-            <img class="routs__img" src="img/eysk.jpg" alt="">
-            <h3 class="routs__title">Ейск</h3>
-            <a class="routs__link" href="#">Заказать</a>
-            <div class="routs__overlay"></div>
-          </li><!-- list__item -->
-
-          <li class="list__item">
-            <img class="routs__img" src="img/gelendgik.jpg" alt="">
-            <h3 class="routs__title">Геленджик</h3>
-            <a class="routs__link" href="#">Заказать</a>
-            <div class="routs__overlay"></div>
-          </li><!-- list__item -->
-
-          <li class="list__item">
-            <img class="routs__img" src="img/krum.jpg" alt="">
-            <h3 class="routs__title">Крым</h3>
-            <a class="routs__link" href="#">Заказать</a>
-            <div class="routs__overlay"></div>
-          </li><!-- list__item -->
-
-          <li class="list__item">
-            <img class="routs__img" src="img/volgodonsk.jpg" alt="">
-            <h3 class="routs__title">Волгодонск</h3>
-            <a class="routs__link" href="#">Заказать</a>
-            <div class="routs__overlay"></div>
-          </li><!-- list__item -->
+          <?php endforeach; ?>
         </ul>
       </div>
     </section>

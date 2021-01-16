@@ -1,5 +1,4 @@
-
-  <?php include 'header.php'?>
+<?php include 'header.php'?>
   
   <main>
 
@@ -120,4 +119,4 @@
 
   </main>
 
-</html>
+<?php include 'footer.php'?>

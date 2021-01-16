@@ -1,0 +1,63 @@
+/* ==========================================================================
+  Base styles
+========================================================================== */
+
+/* stylelint-disable-next-line */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $main-font;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  word-wrap: break-word;
+  color: $main-text-color;
+  overflow-wrap: break-word;
+}
+
+body {
+  background: $main-bg;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+object,
+input,
+textarea {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img {
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button,
+input[type='submit'] {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    border-bottom: 1px solid currentColor;
+  }
+
+  &:focus {
+    outline: 1px solid currentColor;
+    outline-offset: 2px;
+  }
+}

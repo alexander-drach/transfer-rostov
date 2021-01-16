@@ -108,6 +108,10 @@ textarea {
 }
 
 /* HEADER */
+
+.header-page {
+  padding: 20px 0;
+}
 .container_header {
   display: flex;
   align-items: center;

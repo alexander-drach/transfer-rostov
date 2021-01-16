@@ -1,3 +1,9 @@
+<?php include 'header.php'; ?>
+
+<?php include 'includes/hero.php'?>
+
+<?php include 'includes/block-phones.php'?>
+
 <main class="page">
   <section class="about">
     <h2 class="title-section">О нас</h2>
@@ -22,7 +28,7 @@
         <p class="item-title">Забронировать автомобиль можете любым удобным для Вас способом:</p>
         <p class="about-text">Позвонить по телефонам:</p>
         <div class="about-phones">
-          <?php include 'includes/block-phones.php'?>
+          <?php include 'includes/phones.php'?>
         </div>        
 
         <p class="about-text">Связаться через мессенджеры:</p>
@@ -67,3 +73,5 @@
     <p class="about-text">г. Санкт-Петербург</p>
   </section><!-- feedback -->
 </main>
+
+<?php include 'footer.php'?>

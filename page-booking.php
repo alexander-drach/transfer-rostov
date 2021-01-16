@@ -1,7 +1,8 @@
-<?php include 'header.php'; var_dump($_GET)?>
+<?php include 'header.php'; ?>
+
+<?php include 'includes/hero.php'?>
 
 <?php include 'includes/block-phones.php'?>
-
 
 <div class="container_form">
   <main class="page">

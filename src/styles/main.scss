@@ -1,0 +1,19 @@
+/* Normalize css */
+@import '~normalize.css/normalize.css';
+
+/* Fonts */
+// @import '../assets/fonts/main.css';
+
+/* Setup */
+@import './settings/variables';
+
+/* Mixins */
+@import './settings/mixins';
+
+/* Base styles */
+@import './base/elements';
+@import './base/typography';
+// @import './base/buttons';
+// @import './base/forms';
+
+/* Components */

@@ -105,6 +105,7 @@
       <h2 class="title-section">Популярные направления</h2>
       <div class="container">
         <ul class="list list_routs">
+
           <?php foreach ($routs as $item) : ?>
           <li class="list__item">
             <img class="routs__img" src="<?php echo $item['img']; ?>" alt="">
@@ -112,11 +113,14 @@
             <a class="routs__link" href="./page-booking.php?title=<?php echo $item['title']; ?>">Заказать</a>
             <div class="routs__overlay"></div>
           </li><!-- list__item -->
+
           <?php endforeach; ?>
+          
         </ul>
       </div>
     </section>
 
   </main>
+  <?php include 'footer.php'?>
 
 <?php include 'footer.php'?>
